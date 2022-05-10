@@ -17,11 +17,9 @@ contributions:
     - id: napari-test-noa.make_qwidget
       python_name: napari_test_noa._widget:ExampleQWidget
       title: Make example QWidget
-    - id: napari-test-noa.make_magic_widget
-      python_name: napari_test_noa._widget:example_magic_widget
-      title: Make example magic widget
+
     - id: napari-test-noa.make_func_widget
-      python_name: napari_test_noa._widget:example_function_widget
+      python_name: napari_test_noa._widget:do_model_segmentation
       title: Make example function widget 
   readers:
     - command: napari-test-noa.get_reader
@@ -41,8 +39,5 @@ contributions:
   widgets:
     - command: napari-test-noa.make_qwidget
       display_name: Example QWidget
-    - command: napari-test-noa.make_magic_widget
-      display_name: Example Magic Widget
     - command: napari-test-noa.make_func_widget
-      autogenerate: true
       display_name: Example Function Widget 
